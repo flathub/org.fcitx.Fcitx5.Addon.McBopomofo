@@ -2,7 +2,7 @@ app-id: org.fcitx.Fcitx5.Addon.McBopomofo
 branch: stable
 runtime: org.fcitx.Fcitx5
 runtime-version: stable
-sdk: org.kde.Sdk//6.8
+sdk: org.kde.Sdk//6.9
 build-extension: true
 separate-locales: false
 build-options:
@@ -54,6 +54,8 @@ modules:
         x-checker-data:
           type: git
           tag-pattern: ^([\d.]+)$
+      - type: patch
+        path: fix-5.1.13.patch
     config-opts:
       - -DCMAKE_BUILD_TYPE=Release
       - -DENABLE_TEST=Off
