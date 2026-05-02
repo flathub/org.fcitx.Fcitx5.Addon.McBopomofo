@@ -26,6 +26,7 @@ modules:
       - type: git
         url: https://github.com/fmtlib/fmt
         tag: 11.0.2
+        commit: 0c9fce2ffefecfdce794e1859584e25877b7b592
     cleanup:
       - /include
       - /lib/cmake
@@ -41,6 +42,7 @@ modules:
       - type: git
         url: https://github.com/json-c/json-c/
         tag: json-c-0.16-20220414
+        commit: 2f2ddc1f2dbca56c874e8f9c31b5b963202d80e7
     cleanup:
       - /include
       - /lib/cmake
