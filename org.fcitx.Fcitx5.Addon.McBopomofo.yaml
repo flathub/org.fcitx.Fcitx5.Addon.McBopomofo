@@ -28,7 +28,7 @@ modules:
         url: https://github.com/json-c/json-c/
         tag: json-c-0.16-20220414
         commit: 2f2ddc1f2dbca56c874e8f9c31b5b963202d80e7
-        
+
   - name: fcitx5-mcbopomofo
     buildsystem: cmake-ninja
     config-opts:
@@ -37,8 +37,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/openvanilla/fcitx5-mcbopomofo
-        tag: '3.0'
-        commit: 07dd922ddab159dd4c1865dee73f009aa3c8fdc1
+        tag: '3.1'
+        commit: 28a8c93944c0dcfb7855b423ccc94854673fd1df
         x-checker-data:
           type: git
           tag-pattern: ^([\d.]+)$
